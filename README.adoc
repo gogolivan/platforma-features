@@ -2,6 +2,14 @@
 
 Platform Dev Container Features
 
+== Getting Started
+To get started with developing a new feature, you can use the https://github.com/devcontainers/feature-starter/tree/main[Dev Container Feature Starter].
+
+[IMPORTANT]
+====
+Note that by default, GHCR packages are marked as private. To stay within the free tier, Features need to be marked as public.
+====
+
 == Features
 === Firewall
 

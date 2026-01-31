@@ -14,5 +14,11 @@
                 "github": false
             }
         }
+    },
+    "initialization": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "firewall": {}
+        }
     }
 }

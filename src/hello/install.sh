@@ -23,6 +23,12 @@ cat > /usr/local/bin/scanner \
 
 if [ ${ENABLED} = "true" ]; then
     echo "Scanner enabled for user $_CONTAINER_USER."
+
+    # Installing Trivy scanner tool
+    curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo sh -s -- -b /usr/local/bin v0.69.0
+
+    # Run scan
+    trivy fs --exit-code 0 --severity HIGH,CRITICAL /workspace
 else
     echo "Scanner is disabled."
 fi

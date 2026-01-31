@@ -1,0 +1,14 @@
+= Platforma Features
+
+Platform Dev Container Features
+
+== Features
+=== Firewall
+
+=== Scanner
+Vulnerability scanner based on Trivy
+
+== References
+* https://github.com/devcontainers/feature-starter/tree/main[Dev Container Feature Starter]
+
+* https://trivy.dev/[Trivy]

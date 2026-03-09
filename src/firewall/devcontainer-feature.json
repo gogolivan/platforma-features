@@ -1,0 +1,16 @@
+{
+    "name": "Firewall",
+    "id": "firewall",
+    "version": "1.0.0",
+    "description": "A feature to manage firewall rules",
+    "options": {
+        "github": {
+            "type": "boolean",
+            "default": true,
+            "description": "Enable firewall rules for GitHub access."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

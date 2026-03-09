@@ -1,0 +1,24 @@
+{
+    "github_enabled": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "firewall": {
+                "github": true
+            }
+        }
+    },
+    "github_disabled": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "firewall": {
+                "github": false
+            }
+        }
+    },
+    "initialization": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "firewall": {}
+        }
+    }
+}

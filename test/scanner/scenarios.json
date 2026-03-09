@@ -1,0 +1,19 @@
+{
+    "enabled_true": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "scanner": {
+                "enabled": true
+            }
+        }
+    },
+
+    "enabled_false": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "scanner": {
+                "enabled": false
+            }
+        }
+    }
+}

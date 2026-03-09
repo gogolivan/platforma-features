@@ -1,0 +1,16 @@
+{
+    "name": "Scanner",
+    "id": "scanner",
+    "version": "1.0.0",
+    "description": "A scanner feature",
+    "options": {
+        "enabled": {
+            "type": "boolean",
+            "default": true,
+            "description": "Enable or disable the scanner feature"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
